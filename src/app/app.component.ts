@@ -135,19 +135,4 @@ export class AppComponent implements OnInit {
     downloadLink.click();
     document.body.removeChild(downloadLink);
   }
-
-  Let E be the predicate that hold a function of this Algorithm
-  Let i be the index, first element at position 0, so i = 0:
-  Starting at: E[i] to E[N - 1] index, N is the length of the collection of numbers
-  
-  For each E[i]: 
-   - Change E[i] in position i = 0 ==> E[0]
-   - Itemize all (N -)! change of E[i] to E[n - 1]
-   - Change E[i] to E[i] before permutation
-
-  A sample method implementation
-  void enumarate() {
-
-  }
-
 }
